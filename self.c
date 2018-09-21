@@ -1,1 +1,1 @@
-char*s="char*s=%c%s%c;main(){printf(s,34,s,34);}";main(){printf(s,34,s,34);}
+main(s){printf(s,34,s="main(s){printf(s,34,s=%c%s%c,34);}",34);}
